@@ -75,6 +75,7 @@ export default class Img extends Component<Props, State> {
         lazy-load='true'
         src={attr.src}
         style={style}
+        mode='widthFix'
       />
     )
   }
